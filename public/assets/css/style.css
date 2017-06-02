@@ -279,11 +279,11 @@ input {
 
 /* Blue Section - Malibu */
 #malibu {
-	background: #6BB9F0;
+	background: #00b36b;
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	color: white;
+	color: #d9e6f2;
 }
 
 #malibu .col-md-6 {
@@ -319,15 +319,48 @@ input {
 
 /* FOOTER */
 #f {
-	background: #2f2f2f;
+	background: #535b60;
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	color: white;
 }
+
+.form-group  select{
+	border: 1px solid;
+	height: 30px;
+	background-color: #d1d1e0;
+	color: #535b60;
+}
+
+.cap-area {
+	color: #d1d1e0;
+}
+
+#f .form-group input {
+	background-color: #d1d1e0;
+	color: #535b60;
+}
+
+
 
 #f p {
 	color: white;
+}
+
+#f ul {
+	list-style: none;
+	color: #d1d1e0;
+}
+
+.icons{
+	list-style: none;
+	display: inline;
+	color: #d1d1e0;
+	margin-right: 20px;
+}
+
+#f h1 {
+	color: #d1d1e0;
 }
 
 #f h4 {
@@ -338,12 +371,12 @@ input {
 
 /* CREDIT */
 #c {
-	background: black;
+	background: #1f1f2e;
 	padding: 20px;
 }
 
 #c p {
-	color: white;
+	color: ;
 	font-size: 13px;
 }
 

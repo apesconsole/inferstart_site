@@ -73,7 +73,7 @@
 			
 			<div class="col-md-5 pull-right">
 				<svg width="466" height="427" style="float: right;"></svg>
-				<div style='clear: both;'/>
+				
 			</div>
 		</div><! --/row -->
 	</div><! --/container -->
@@ -85,7 +85,7 @@
 			<div class="col-md-6 pull-left">
 				<img src="assets/img/services.jpg" class="img-responsive alignleft" alt="" data-effect="slide-left">
 			</div>
-			<div class="col-md-5 mt">
+			<div class="col-md-5 mt ">
 				<h1>STATEGIC PLANNING</h1>
 				<p>
 					We use smart tools and global resources to enable organizations to stay relevant and competitive in this fast-paced world
@@ -132,7 +132,7 @@
 				<img src="assets/img/shot04.png" class="img-responsive alignleft" alt="" data-effect="slide-left">
 			</div>
 			<div class="col-md-5 mt">
-				<h1>SMARTCOM</h1>
+				<h1>SMART SOLUTIONS</h1>
 				<p>
 					SmartCom is a powerful IoT Platform for data integration and management for smart cities. The platform is a culmination of our deep understanding in Data analytics and the smart environment depending on it. Scalability and robustness of the platform is what we believe will be the key to success for us and our partners.
 				</p>
@@ -148,12 +148,7 @@
 		<div class="row nopadding">
 			<div class="col-md-5 col-md-offset-1 mt">
 				<h1>CASE STUDIES</h1>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-				<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-				<p class="mt"><button class="btn btn-white btn-theme">Sign Up Now | 14 Days Free</button></p>
 			</div>
-			
 		</div><! --/row -->
 	</div><! --/Jelly -->
 
@@ -161,16 +156,84 @@
 	<div id="f">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 centered">
-					<h4 class="mb">Contact Us for further questions</h4>
-					<form role="form" action="register.php" method="post" enctype="plain"> 
-	    				<input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..." required>
-						<button class='btn btn-lg btn-info btn-sub subscribe-submit' type="submit">Send Request</button>
-					</form>
-				
+				<div class="col-md-5">
+					<h1>HEAR FROM US</h1>
+					<p>
+						<form id="f1" name="f1">
+							<p id="msg"></p>
+							<div class="form-group">
+								<select id="mail_for" name="mail_for" required="">
+									<option value="Discuss with our Market Research Experts">Discuss with our Market Research Experts</option>
+									<option value="Discuss with our Analytics Experts">Discuss with our Analytics Experts</option>
+									<option value="Ask for a call back from our Consultants" selected="selected">Ask for a call back from our Consultants</option>
+								</select>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<input id="name" class="form-control" name="name" placeholder="Your Full Name *" required="" type="text">
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<input id="email" class="form-control" name="email" placeholder="Your Email *" required="" type="email">
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<input id="phone" class="form-control" name="phone" placeholder="Your Phone Number" type="text">
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="row">
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<div class="cap-area">
+												<div class="cap-content text-center">
+													6 + 4 = 
+												</div>
+												<div class="cap-ans">
+													<input id="original_captcha" name="original_captcha" value="10" type="hidden">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<input id="captcha" class="form-control" name="captcha" required="" type="text">
+										</div>
+									</div>
+								</div>
+							</div>
+							<input class="btn btn-success btn-lg" value="SUBMIT" type="submit">
+							<input id="reset" style="display:none;" type="reset">
+						</form>
+					</p>
+					<br/>
+					<h1>REACH US</h1>
+					<ul>
+						<li>
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<a href="mailto:contactus@inferstrat.com">contactus@inferstrat.com</a>
+						</li>
+						<li>
+							<i class="fa fa-phone" aria-hidden="true"></i> 
+							+91 79654 79632
+						</li>
+					</ul>
+					<ul>
+						<li class='icons'>
+							<img src='assets/img/gplus.png'/>
+						</li>
+						<li class='icons'>
+							<img src='assets/img/tweter.png'/>
+						</li>
+						<li class='icons'>
+							<img src='assets/img/facebook.png'/>
+						</li>
+						<li class='icons'>
+							<img src='assets/img/youtube.png'/>
+						</li>
+					</ul>
 				</div>
+				<div class="col-md-6">
 
+				</div>
 			</div><! --/row -->
+		
 		</div><! --/container -->
 	</div><! --/F -->
 
@@ -178,9 +241,7 @@
 	<div id="c">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3 centered">
-					<p>Copyright 2017 | InferStrat</p>
-				</div>
+				<p>Copyright 2017 | InferStrat</p>
 			</div>
 		</div><! --/container -->
 	</div><! --/C -->
