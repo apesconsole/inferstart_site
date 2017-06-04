@@ -47,6 +47,13 @@ body {
 	height: 100%;
 }
 
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
 .alignleft { float: left; }
 .alignright { float: right; }
 .aligncenter {
@@ -191,6 +198,8 @@ input {
 	font-size: 13px;
 }
 
+
+
 /* HEADER SECTION */
 #h {
 	background: url(../img/header.jpg) no-repeat center top;
@@ -228,6 +237,8 @@ input {
 #h h3 {
 	color: white;
 	font-weight: 400;
+	letter-spacing: 10px;
+	margin-top: 0px;
 }
 
 #h img {
@@ -294,7 +305,7 @@ input {
 
 /* Blue Section - Malibu */
 #malibu {
-	background: #00b36b;
+	background: #637b89;
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -391,7 +402,7 @@ input {
 /* CREDIT */
 #c {
 	background: #1f1f2e;
-	padding: 20px;
+	padding: 20px 20px 0 50px;
 	border-top: 4px solid #6a6970;
 }
 
