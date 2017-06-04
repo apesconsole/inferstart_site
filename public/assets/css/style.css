@@ -179,6 +179,17 @@ input {
 	background: #2f2f2f;
 	color: white;
 }
+/* CREDIT */
+#n {
+	background: #1f1f2e;
+	padding: 20px;
+	border-top: 4px solid #6a6970;
+}
+
+#n p {
+	color: ;
+	font-size: 13px;
+}
 
 /* HEADER SECTION */
 #h {
