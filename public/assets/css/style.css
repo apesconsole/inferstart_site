@@ -194,11 +194,37 @@ input {
 }
 
 #n p {
-	color: ;
 	font-size: 13px;
 }
 
+div.tabs {
+		
+		height: 50px;
+		width: 150px;
+		border-bottom: 4px solid #61b72d;
+}
+div.tabs a{
+	color: #bfd0ce;
+	font-weight: 400;
+	margin-top: 0px;
+	font-size: 20px;
+	overflow: hidden;
+	
+}
 
+div.tabs a:hover,
+ a:focus {
+  font-size: 22px;
+  color: white;
+}
+
+
+.hednav li {
+	list-style: none;
+	display: inline;
+	color: #d1d1e0;
+	margin-right: 200px;
+}
 
 /* HEADER SECTION */
 #h {
@@ -290,7 +316,7 @@ input {
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	color: #00cc99;
+	color: #d9e6f2;
 	border-top: 4px solid #e67300;
 }
 
@@ -333,16 +359,31 @@ input {
 }
 
 #jelly p {
-	color: #e9e9e9;
+	color: #d9e6f2;
 	font-size: 16px;
 }
 
-#jelly h1 {
-	font-size: 200px;
+#jelly .col-md-5 h1 {
+	font-size: 120px;
 }
 
 #jelly h3 {
 	margin-top: 10px;
+}
+
+.man {
+	color: #9bcaf0;
+	
+}
+
+.ret {
+	color: #7bbeca;
+	
+}
+
+.trn {
+	color: #8eb79c;
+	
 }
 
 /* FOOTER */
@@ -390,7 +431,7 @@ input {
 }
 
 #f h1 {
-	color: #d1d1e0;
+	color: #d9e6f2;
 }
 
 #f h4 {
@@ -451,4 +492,53 @@ fieldset[disabled] .btn-cstm.active {
 .btn-cstm .badge {
   color: #5bc0de;
   background-color: #fff;
+}
+
+	#h .container .nopadding .nav {
+		display: none;
+	}
+
+
+/** Mobile **/
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+
+    .tabs {
+		display: none;
+	}
+    #h .container .nopadding img{
+		display: none;
+	}
+	
+	#h .container .nopadding .nav {
+		display: block;
+	}
+
+}
+
+/** Tablet **/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+    .tabs {
+		display: none;
+	}
+    #h .container .nopadding img{
+		display: none;
+	}
+	#h .container .nopadding .nav {
+		display: block;
+	}
+}
+
+/** Tablet (landscape) **/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+    .tabs {
+		display: none;
+	}
+    #h .container .nopadding img{
+		display: none;
+	}
+	#h .container .nopadding .nav {
+		display: block;
+	}
 }
