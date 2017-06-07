@@ -2815,13 +2815,24 @@
 		header.major > :first-child {
 			margin-top: -0.25em;
 		}
-
+	#logo-xm {
+		display: block;
+	}
+	#logo-xm-p {
+		display: none;
+	}
 	@media screen and (max-width: 736px) {
 
 		header p {
 			margin: -0.25em 0 2em 0;
 		}
-
+		
+		#logo-xm {
+			display: none;
+		}
+		#logo-xm-p {
+			display: block;
+		}
 	}
 
 	header p {
@@ -3166,11 +3177,11 @@
 				}
 
 			.spotlights > article > :nth-child(1) {
-				width: 40%;
+				width: 50%;
 			}
 
 			.spotlights > article > :nth-child(2) {
-				width: 60%;
+				width: 50%;
 			}
 
 			.spotlights > article:nth-child(2n - 1) {
@@ -3181,12 +3192,12 @@
 			}
 
 				.spotlights > article:nth-child(2n - 1) > :nth-child(1) {
-					width: 40%;
+					width: 50%;
 					
 				}
 
 				.spotlights > article:nth-child(2n - 1) > :nth-child(2) {
-					width: 60%;
+					width: 50%;
 				}
 
 		@media screen and (max-width: 1680px) {

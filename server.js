@@ -44,6 +44,22 @@ app.get("/index", function(req,res){
 	res.sendFile(path + "index.html");
 });	
 
+app.get("/services", function(req,res){
+	res.sendFile(path + "services.html");
+});	
+
+app.get("/smartcom", function(req,res){
+	res.sendFile(path + "smartcom.html");
+});	
+
+app.get("/demo", function(req,res){
+	res.sendFile(path + "demo.html");
+});	
+
+app.get("/contactus", function(req,res){
+	res.sendFile(path + "contactus.html");
+});	
+
 
 http.listen(process.env.PORT || 3001, () => {				
 	logger.log('##################################################');
